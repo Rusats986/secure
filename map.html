@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ядролық Реакторлар - Карта</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="container">
+            <img src="scp-foundation-logo.svg" alt="SCP" class = "logo-image">
+            <nav>
+                 <ul>
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="history.html">Тарихы</a></li>
+                    <li><a href="principles.html">Жұмыс принципі</a></li>
+                    <li><a href="elements.html">Элементтер</a></li>
+                    <li><a href="facts.html">Қызықты деректер</a></li>
+                    <li><a href="map.html" class="active">Карта</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-button">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="map-section container" data-aos="fade-in">
+            <h2>Әлемдегі Ядролық Реакторлардың Таралуы</h2>
+            <p>Картадағы нүктелерді басу арқылы кейбір елдердегі ядролық энергетиканың дамуы туралы қысқаша ақпарат алыңыз.</p>
+            <div class="map-container" data-aos="zoom-in">
+                <img src="image.png" alt="Әлем картасы" class="world-map-image">
+                <button class="map-point" data-country="АҚШ" style="top: 50%; left: 20%;" title="АҚШ"></button>
+                <button class="map-point" data-country="Франция" style="top: 47%; left: 49%;" title="Франция"></button>
+                <button class="map-point" data-country="Қытай" style="top: 54%; left: 77%;" title="Қытай"></button>
+                <button class="map-point" data-country="Ресей" style="top: 35%; left: 75%;" title="Ресей"></button>
+                 <button class="map-point" data-country="Жапония" style="top: 53%; left: 85%;" title="Жапония"></button>
+                 <button class="map-point" data-country="Канада" style="top: 40%; left: 20%;" title="Канада"></button>
+                 <button class="map-point" data-country="Қазақстан" style="top: 45%; left: 67%;" title="Қазақстан (тарихи/зерттеу)"></button>
+                 <div id="map-info-box">
+                    Нүктені таңдаңыз...
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

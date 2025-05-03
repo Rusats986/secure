@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Черный внешний круг -->
+  <circle cx="200" cy="200" r="190" fill="#000000"/>
+  
+  <!-- Белый внутренний круг -->
+  <circle cx="200" cy="200" r="170" fill="#FFFFFF"/>
+  
+  <!-- Arrows/Стрелки -->
+  <g fill="#000000">
+    <!-- Верхняя стрелка -->
+    <path d="M200,50 L170,100 L230,100 Z"/>
+    
+    <!-- Правая стрелка -->
+    <path d="M350,200 L300,170 L300,230 Z"/>
+    
+    <!-- Нижняя стрелка -->
+    <path d="M200,350 L230,300 L170,300 Z"/>
+    
+    <!-- Левая стрелка -->
+    <path d="M50,200 L100,230 L100,170 Z"/>
+  </g>
+  
+  <!-- Внутренний круг -->
+  <circle cx="200" cy="200" r="100" stroke="#000000" stroke-width="10" fill="#FFFFFF"/>
+  
+  <!-- Текст SCP -->
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#000000">SCP</text>
+</svg>
